@@ -2,6 +2,7 @@ class Tax:
     def __init__(self,name,rate):
         self.name=name
         self.rate=rate
+        print("Adding line :Third change ")
 
     def computeTax(self,income,age):
         print(f"Tax Computation for:{self.name}")
@@ -13,6 +14,8 @@ class Tax:
 
     def taxFunc(self,tax):
         return lambda x: x * tax
+
+    print("Adding line :Second change ")
 
     #Passing a dictionary to function and accessing elements in the dictrionary
     def printDict(self, mydict):
@@ -34,6 +37,7 @@ class Tax:
             print("Key is : ",key," and Value is : ",kwargNames[key])
         return
 
+print("Adding line :First change ")
 
 taxCompute=Tax("Saachi & Saanvi",0.5)
 taxPay=taxCompute.computeTax(1000,45)
@@ -49,6 +53,6 @@ for item in listName:
     taxPay=taxCompute.computeTax(listInc[i],listAge[i])
     print(f"Tax to be paid by {item} is : {taxPay}")
 
-print("Adding line just for git diff command testing")
+
 
 
