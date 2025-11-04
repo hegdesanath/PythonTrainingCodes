@@ -1,2 +1,0 @@
-username : Sanath
-password : Pwd
