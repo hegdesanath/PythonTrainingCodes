@@ -4,6 +4,7 @@ subSetString=['abcde']
 words=['a','bb','ac','adc','ade','ae','ca','an','abe','aeb']
 #words=['a','bb','ac','adc']
 matchWords=[]
+print("Simply Test Printing")
 for word in words:
     print(f"Each Word in Words is {word}")
     match3 = -1
@@ -19,4 +20,8 @@ for word in words:
         print(f"Selected Word is :{word}")
         matchWords.append(word)
 print(f"Number of Matched words is : {len(matchWords)} and selected words are : {matchWords}")
+
+print("testing git hub on Functions_Repository file")
+
+
 
