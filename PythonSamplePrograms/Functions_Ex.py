@@ -69,3 +69,5 @@ def taxFunc(tax):
 income=int(input("Enter the income:"))
 taxtoPay=taxFunc(tax=0.3)
 print("Tax to be paid is : ",taxtoPay(income))
+
+print("testing git hub on Functions_Ex file")
